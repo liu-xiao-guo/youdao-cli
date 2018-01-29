@@ -193,7 +193,7 @@ def main():
 
     SNAP = os.environ['SNAP']
     print "SNAP: " + SNAP
-    config.set_dict_path(SNAP + "/dicts)
+    config.set_dict_path(SNAP + "/dicts")
 
     # keyword = unicode(' '.join(args), encoding=sys.getfilesystemencoding())
     keyword = unicode(' '.join(args), encoding='utf-8')
